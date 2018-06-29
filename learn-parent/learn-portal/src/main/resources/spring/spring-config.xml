@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns:context="http://www.springframework.org/schema/context" 
+xsi:schemaLocation="    
+           http://www.springframework.org/schema/beans    
+           http://www.springframework.org/schema/beans/spring-beans-4.2.xsd    
+           http://www.springframework.org/schema/context    
+           http://www.springframework.org/schema/context/spring-context-4.2.xsd"
+           default-lazy-init="false">
+           <!--隐式地向spring容器中注册AutowiredAnnotationBeanPostProcessor、CommonAnnotationBeanPostProcessor、PersistenceAnnotationBeanPostProcessor 及 equiredAnnotationBeanPostProcessor 这 4 个 BeanPostProcessor。
+在配置文件中使用<context:annotationconfig/>之前，必须在 <beans> 元素中声明 context 命名空间  -->
+           <context:annotation-config></context:annotation-config>
+           <context:component-scan base-package="com.yyzz.learn"></context:component-scan>
+</beans>
