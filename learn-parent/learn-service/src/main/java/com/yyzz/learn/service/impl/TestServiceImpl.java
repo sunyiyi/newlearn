@@ -13,7 +13,6 @@ public class TestServiceImpl implements TestService {
 
 	@Override
 	public int queryAll() {
-		1
 		System.out.println(a);
 		return 0;
 		int a = tes;
