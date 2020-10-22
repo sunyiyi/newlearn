@@ -17,6 +17,9 @@ public class TestServiceImpl implements TestService {
 		System.out.println(a);
 		return 0;
 		int a = tes;
+		int b = 1;
+
+
 	}
 
 }
