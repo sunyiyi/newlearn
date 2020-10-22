@@ -16,9 +16,7 @@ public class TestServiceImpl implements TestService {
 		int a = testDao.queryAll();
 		System.out.println(a);
 		return 0;
-		int q = 1;
 		int a = tes;
-		int b = 1;
 
 
 	}
