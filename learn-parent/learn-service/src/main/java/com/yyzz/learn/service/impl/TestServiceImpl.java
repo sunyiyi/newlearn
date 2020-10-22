@@ -13,7 +13,6 @@ public class TestServiceImpl implements TestService {
 
 	@Override
 	public int queryAll() {
-		int a = testDao.queryAll();
 		System.out.println(a);
 		return 0;
 		int a = tes;
