@@ -19,6 +19,10 @@ public class TestServiceImpl implements TestService {
 		int a = tes;
 		 2134;
 		 1;
+		 4;
+		 5;
+
+
 		 2;
 	}
 
