@@ -18,7 +18,6 @@ public class TestServiceImpl implements TestService {
 		return 0;
 		int q = 1;
 		int a = tes;
-		int b = 1;
 
 
 	}
